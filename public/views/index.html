@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="vendors/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="vendors/react0.js" charset="utf-8"></script>
-    <script src="scripts/client.js" charset="utf-8"></script>
-    <title>React Calculator</title>
-  </head>
-  <body>
-    <h1>React Calculator</h1>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="vendors/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="vendors/react.js" charset="utf-8"></script>
+  <script src="vendors/react-dom.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <title>React Calculator</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <h1>React Calculator</h1>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
     <h2>
         <input type="number" id="firstInput" placeholder="number">
         <input type="number" id="secondInput" placeholder="number">
       </h2>
-      <h3>
+    <h3>
         <button type="button" class="calculate" id="add" name="Add">+</button>
         <button type="button" class="calculate" id="subtract" name="Subtract">-</button>
         <button type="button" class="calculate" id="multiply" name="Multiply">*</button>
         <button type="button" class="calculate" id="divide" name="Divide">/</button>
         <button type="button" class="clear" id="clear" name="Clear">Clear</button>
       </h3>
-    </div>
-    <div id="outputDiv"></div>
-  </body>
+  </div>
+  <div id="outputDiv"></div>
+  </div>
+</body>
+
 </html>
