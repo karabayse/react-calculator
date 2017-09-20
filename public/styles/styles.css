@@ -1,7 +1,7 @@
 h1 {
-  color: DarkOliveGreen;
+  color: Purple;
   font-family: Helvetica;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .navbar {
@@ -10,5 +10,5 @@ h1 {
 
 body {
   color: Navy;
-  background-color: Chocolate;
+  background-color: LightGrey;
 }
